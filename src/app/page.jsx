@@ -1,6 +1,14 @@
+import AboutPage from "@/components/AboutPage"
+import HomePage from "@/components/HomePage"
+import ServicesPage from "@/components/servicePage"
+
 const Home = () => {
   return (
-    <div> Welcome to Home Page </div>
+    <>
+    <HomePage/>
+    <AboutPage/>
+    <ServicesPage/>
+    </>
   )
 }
 
